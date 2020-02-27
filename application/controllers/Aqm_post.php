@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 require APPPATH . 'libraries/RestController.php';
 require APPPATH . 'libraries/Format.php';
 
-class Aqmdata_post extends RestController {
+class Aqm_post extends RestController {
 
     public function __construct()
     {

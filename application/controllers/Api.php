@@ -11,7 +11,7 @@ class Api extends RestController {
     	parent::__construct();
     }
 
-	public function aqm_data_get()
+	public function aqmData_get()
 	{
 
 		$id = $this->get('id');
@@ -35,7 +35,7 @@ class Api extends RestController {
 		}
 	}
 
-	public function aqm_ispu_get()
+	public function aqmIspu_get()
 	{
 
 		$id = $this->get('id');
